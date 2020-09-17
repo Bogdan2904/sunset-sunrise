@@ -1,0 +1,124 @@
+.may-home-page {
+
+  &-main-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../image/tree-736875.jpg');
+
+    &-dark-theme {
+      background-image: url('../../image/tree-4/tree-736875 4.JPG');
+    }
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 70vh;
+    width: 100vw;
+
+    position: relative;
+
+    .container-current-location {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      height: 95%;
+
+      &-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #c16060;
+        border-radius: 100%;
+        font-size: 27px;
+        position: sticky;
+        top: 80px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+
+
+    &-title {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    &-title-text {
+      font-size: 20px;
+      color: white;
+    }
+
+    &-form {
+      width: 50%;
+      line-height: 0;
+    }
+  }
+
+  &-intro {
+    &-dark-theme {
+      background-color: black;
+    }
+
+    padding: 20px 15%;
+
+    p {
+      margin: 20px 0;
+    }
+
+    h3 {
+      color: #4475cd;
+    }
+
+    &-graph {
+      img {
+        width: 100%;
+      }
+    }
+
+    &-line {
+      background-color: gray;
+      height: 1px;
+      margin: 20px 0;
+    }
+
+    &-what-for {
+      display: flex;
+
+      &-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 10px;
+        font-size: 15px;
+
+        h6 {
+          color: #4475cd;
+        }
+
+        p {
+          margin: 0;
+        }
+
+        &-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 60px;
+
+          img {
+            width: 55px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}

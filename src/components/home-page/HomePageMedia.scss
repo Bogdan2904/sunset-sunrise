@@ -1,0 +1,190 @@
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .may-home-page{
+
+    &-main-part{
+      height: 200px;
+
+      .container-current-location{
+        top: 5px;
+        right: 5px;
+
+        &-button{
+          width: 15px;
+          height: 15px;
+          top: 5px;
+          font-size: 10px;
+        }
+      }
+
+      &-title{
+        font-size: 16px;
+      }
+
+      &-title-text{
+        font-size: 7px;
+      }
+    }
+
+    &-intro{
+      padding: 20px 10px;
+      font-size: 8px;
+
+      h3{
+        font-size: 13px;
+      }
+
+      &-line{
+        margin: 0;
+      }
+
+      &-what-for{
+
+        &-box{
+          margin: 0 2px;
+
+          &-image{
+            height: 30px;
+
+            img{
+              width: 20px;
+              margin-bottom: 0;
+            }
+          }
+
+          h6{
+            font-size: 7px;
+          }
+
+          p{
+            font-size: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .may-home-page{
+
+    &-main-part{
+      height: 350px;
+
+      .container-current-location{
+        top: 5px;
+        right: 5px;
+
+        &-button{
+          width: 25px;
+          height: 25px;
+          top: 5px;
+          font-size: 14px;
+        }
+      }
+
+      &-title{
+        font-size: 21px;
+      }
+
+      &-title-text{
+        font-size: 10px;
+      }
+    }
+
+    &-intro{
+      padding: 20px 20px;
+      font-size: 11px;
+
+      h3{
+        font-size: 15px;
+      }
+
+      &-line{
+        margin: 5px;
+      }
+
+      &-what-for{
+
+        &-box{
+          margin: 0 4px;
+
+          &-image{
+            height: 40px;
+
+            img{
+              width: 30px;
+              margin-bottom: 3px;
+            }
+          }
+
+          h6{
+            font-size: 9px;
+          }
+
+          p{
+            font-size: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .may-home-page{
+
+    &-main-part{
+      height: 350px;
+
+      .container-current-location{
+
+        &-button{
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      &-title{
+        font-size: 33px;
+      }
+
+      &-title-text{
+        font-size: 15px;
+      }
+    }
+
+    &-intro{
+      padding: 20px 40px;
+      font-size: 15px;
+
+      h3{
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      &-what-for{
+
+        &-box{
+
+          &-image{
+            height: 65px;
+
+            img{
+              width: 50px;
+            }
+          }
+
+          h6{
+            font-size: 14px;
+          }
+
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
